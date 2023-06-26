@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  background-color: aliceblue;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+h3 {
+  font-family: "Roboto Slab", serif;
+}
+
+.container {
+  width: 500px;
+  height: 675px;
+  background-color: #fff;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  max-width: 100%;
+}
+.profile {
+  margin-left: 30%;
+  padding-left: 25px;
+  max-width: 200px;
+}
+
+.profile h2 {
+  font-size: 15px;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+.profile p {
+  font-size: 8px;
+  font-weight: 600;
+  font-family: "Montserrat", serif;
+}
+.profile img {
+  padding-right: 10px;
+  padding-left: 30px;
+  margin-top: 20px;
+  margin-left: 5px;
+  border-radius: 50%;
+  width: 60px;
+  align-content: center;
+  height: 60px;
+}
+
+.header-divider {
+  border-bottom: 2px solid transparent;
+  margin: 0 20px;
+  margin-right: 20px;
+  border-image: radial-gradient(#7e7d7d, #fff);
+  border-image-slice: 1;
+}
+.row-contact td {
+  font-family: "Geologica", sans-serif;
+  padding-top: 15px;
+  padding-left: 20px;
+  font-size: 8px;
+  padding-bottom: 10px;
+}
+
+.row-contact a {
+  text-decoration: none;
+  color: black;
+}
+.about {
+  width: 100%;
+  font-size: 10px;
+  left: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.about h3 {
+  font-size: 15px;
+}
+
+.first {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 20px;
+}
+
+.tech-known {
+  padding-left: 10px;
+  width: 100%;
+  border-left: 1px solid transparent;
+  border-image: radial-gradient(#333, #fff);
+  border-image-slice: 60;
+}
+
+.tech-known p {
+  font-size: 10px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 600;
+}
+.tech-known li {
+  font-size: 9px;
+}
+
+.lang p {
+  font-size: 10px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 600;
+}
+.lang li {
+  font-size: 9px;
+}
+.education {
+  padding-left: 10px;
+}
+.education ul {
+  height: auto;
+  background-color: ble;
+  margin-top: 0;
+}
+.education h3 {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+.education li {
+  list-style-type: none;
+}
+
+.education p {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.education p span {
+  font-size: 8px;
+  font-weight: 300;
+}
+
+.edu-highlighted li {
+  font-size: 8px;
+}
+
+.education table {
+  width: 100%;
+}
+
+.projects {
+  width: 100%;
+  font-size: 10px;
+  left: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.projects h3 {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.project-display {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.project-display ul {
+  top: 0;
+}
+
+.project-display p {
+  top: 0;
+  background-color: bique;
+  font-size: 12px;
+}
+.proj-1 {
+  margin: 5px;
+  padding-left: 5px;
+}
+
+.proj-1 p {
+  font-weight: 700;
+  opacity: 100%;
+  font-size: 11px;
+}
+
+.proj-1 li {
+  list-style-type: none;
+  padding-left: 10px;
+  font-size: 10px;
+}
+.cp-display {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.cp h3 {
+  margin-left: 10px;
+  font-size: 15px;
+}
+.cp h3 {
+  margin-bottom: 0;
+}
+.cp-child p {
+  font-weight: 700;
+  font-size: 13px;
+  margin-left: 20px;
+}
+
+.cp-child p span {
+  font-weight: 700;
+  font-size: 10px;
+  margin-left: 20px;
+}
+
+#ig-improved {
+  font-size: 8px;
+}
+
+#domain {
+  font-size: 10px;
+}
+
+.proj-1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.OtherIntrests ul {
+  margin-top: 4px;
+}
+
+.lang ul {
+  margin-top: 4px;
+}
